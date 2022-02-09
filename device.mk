@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Custom settings
-DEVICE_PACKAGE_OVERLAYS := device/snappautomotive/rpi/overlay
+DEVICE_PACKAGE_OVERLAYS := device/ndslive/rpi/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
     gralloc.drm.kms=/dev/dri/card0 \

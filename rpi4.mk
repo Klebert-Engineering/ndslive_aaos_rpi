@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/snappautomotive/common/additions.mk)
-$(call inherit-product, device/snappautomotive/rpi/device.mk)
+$(call inherit-product, device/ndslive/common/additions.mk)
+$(call inherit-product, device/ndslive/rpi/device.mk)
 $(call inherit-product, device/generic/car/common/car.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -26,8 +26,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     android.car.number_pre_created_guests=1 \
     android.car.user_hal_enabled=true
 
-PRODUCT_NAME := snapp_car_rpi4
+PRODUCT_NAME := ndslive_car_rpi4
 PRODUCT_DEVICE := rpi
-PRODUCT_BRAND := SnappAutomotive
-PRODUCT_MANUFACTURER := Snapp Automotive and ARPi
+PRODUCT_BRAND := NDSLive
+PRODUCT_MANUFACTURER := NDS and Snapp Automotive and ARPi
 PRODUCT_MODEL := Car on Raspberry Pi 4
