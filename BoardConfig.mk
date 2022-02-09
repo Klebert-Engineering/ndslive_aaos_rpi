@@ -63,10 +63,10 @@ BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/snappautomotive/rpi/bluetooth
-BOARD_CUSTOM_BT_CONFIG := device/snappautomotive/rpi/bluetooth/vnd_rpi4.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/ndslive/rpi/bluetooth
+BOARD_CUSTOM_BT_CONFIG := device/ndslive/rpi/bluetooth/vnd_rpi4.txt
 
 BOARD_SEPOLICY_DIRS := \
-    device/snappautomotive/rpi/sepolicy
+    device/ndslive/rpi/sepolicy
 
-DEVICE_MANIFEST_FILE := device/snappautomotive/rpi/manifest.xml
+DEVICE_MANIFEST_FILE := device/ndslive/rpi/manifest.xml
